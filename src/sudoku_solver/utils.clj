@@ -3,8 +3,7 @@
 (require '[clojure.core.matrix :as matrix])
 (require '[clojure.string :as str])
 
-(declare try-rand-vals
-         replace-random
+(declare replace-random
          rand-first-line)
 
 ;; Creates a "random" rows x cols sudoku board-

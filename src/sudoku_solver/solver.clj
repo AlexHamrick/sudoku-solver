@@ -12,9 +12,7 @@
          same-row?
          same-col?
          same-box?
-         overlap?
-         try-rand-vals
-         replace-random)
+         overlap?)
 
 ;; Solves a sudoku board passed with the dimensions
 ;; @param board A vector of numbers representing a sudoku
